@@ -1,0 +1,19 @@
+{
+  "name": "@agmascripts/examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/index.js -o dist/bundle.js",
+    "build:tiny": "browserify -p tinyify src/index.js -o dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@agmascripts/core": "^1.0.0-beta.2"
+  },
+  "devDependencies": {
+    "tinyify": "^3.0.0"
+  }
+}
