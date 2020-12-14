@@ -1,5 +1,5 @@
 # @agmascripts/core examples
-Template repository for [agmascripts-core](https://github.com/agmascripts/core)
+Example repository for [agmascripts-core](https://github.com/agmascripts/core)
 
 ## Installation
 [Browserify](http://browserify.org/) needs to be globally installed to build the script.
