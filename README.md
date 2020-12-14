@@ -1,4 +1,4 @@
-# agmaio-script-lib-template
+# @agmascripts/core examples
 Template repository for [agmascripts-core](https://github.com/agmascripts/core)
 
 ## Installation
