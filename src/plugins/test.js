@@ -1,14 +1,12 @@
-const { Plugin, Core } = require('@agmascripts/core');
+const { Core } = require('@agmascripts/core');
 
 const DEFAULTS = {
   sayHi: false
 }
 
-module.exports = class TestPlugin extends Plugin {
+module.exports = class TestPlugin {
 
   constructor(options = DEFAULTS) {
-    super();
-
     this.options = { ...DEFAULTS, ...options };
   }
 
