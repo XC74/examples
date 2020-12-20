@@ -6,8 +6,8 @@ const Script = new Core();
 const commands = require('./commands');
 commands.forEach(command => Script.CommandModule.addCommand(command));
 
-// Test plugin: (EXPERIMENTAL, MAY CHANGE IN FUTURE.)
-const TestPlugin = require('./plugins/test');
-Script.use(new TestPlugin({
-  sayHi: true
-}))
+// Import example plugin
+const examplePlugin = require('./plugins/example');
+Script.use(examplePlugin, { exampleOption: false })
+
+window.Script = Script;

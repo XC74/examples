@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@agmascripts/core": "^1.0.1-beta.14"
+    "@agmascripts/core": "^2.0.0-beta.0"
   },
   "devDependencies": {
     "tinyify": "^3.0.0"
