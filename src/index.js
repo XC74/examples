@@ -8,6 +8,6 @@ commands.forEach(command => Script.CommandModule.addCommand(command));
 
 // Import example plugin
 const examplePlugin = require('./plugins/example');
-Script.use(examplePlugin, { exampleOption: false })
+Script.use(examplePlugin, { /* ... */ })
 
 window.Script = Script;

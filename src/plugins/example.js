@@ -1,7 +1,7 @@
 const { Core } = require('@agmascripts/core');
 
 const DEFAULTS = {
-  sayHi: false
+  // ...
 }
 
 module.exports = {
